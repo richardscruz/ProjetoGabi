@@ -1,0 +1,242 @@
+.rodape{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    padding: 80px;
+}
+
+.Nmb2{
+    width: 25%;
+    border-radius: 5%;
+}
+
+
+
+
+.boxCli{
+color: black;
+}
+
+
+.finalPagina{
+    text-align: center
+    ;
+    color: black;
+}
+.titulos{
+    color: black;
+}
+
+.gabiGG{
+    max-width:600px;
+    max-height:350 ;
+    width: auto;
+    height: auto;
+    
+
+}
+.txthis{
+   color: rgb(0, 0, 0);
+   position: absolute;
+   top: 100%;
+   left : 40%;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+#data_nascimento{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+
+}
+
+
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput{
+    top: -45px;
+    font-size: 12px;
+    color: dodgerblue;
+}
+
+.labelInput{
+position: relative;
+top: -20px;
+left: 0px;
+pointer-events: none;
+transition: .5s;
+
+}
+.filds{
+    border: 3px solid dodgerblue;
+}
+
+.fmr-box{
+    position: absolute;
+    top: 270%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0,0,0, 0.6);
+    padding: 15px;
+    border-radius: 15px;
+    width: 25%;
+    color: white;
+
+    
+}
+
+.legend{
+    border: 1px solid dodgerblue;
+    padding: 10px;
+    text-align: center;
+    background-color:  dodgerblue;
+    border-radius: 8px;
+    
+    
+
+}
+.inputBox{
+    position: relative;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+
+}
+
+
+.central{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+    
+
+}
+.carrossel{
+    box-shadow: 3px 3px 3px 5px rgba(255, 255, 255, 0.911);
+    overflow: hidden;
+    height: 500px;
+    width: 600px; 
+    
+}
+
+.container{
+    display: flex;
+    transition: transform 1s  ease-in-out;
+   transform: translate(0);
+}
+
+img{
+    object-fit: cover;
+    height: 500px;
+    width: 600px;
+
+}
+
+.titulo{
+    background-color: lightcoral;
+    text-align: center;
+    margin: 10px;
+}
+.logopng{
+  
+    width: 30%;
+    height: 30%;
+
+    
+    
+  
+}
+.header{
+    overflow: hidden;
+    background-color: rgb(172, 6, 163);
+    padding: 20 px 10 px; 
+}
+.espacocredito{
+
+    overflow: hidden;
+    background-color: rgb(172, 6, 163);
+    padding: 20 px 10 px; 
+    color: white;
+}
+
+.espacoblack{
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    padding: 20 px 10 px; 
+}
+.espacogold{
+    overflow: hidden;
+    background-color: rgb(255, 215, 0);
+    padding: 20 px 10 px; 
+}
+
+.redution{
+    max-width:350px;
+    max-height:350;
+    width: auto;
+    height: auto;
+    
+}
+.header a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px ;
+    text-decoration: nome;
+    font-size: 20px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+
+.header a:hover{
+    background-color: rgb(255, 217, 0);
+    color: silver;
+}
+
+.header a.active{
+    background-color:rgb(255, 217, 0);;
+    color: whitesmoke;
+}
+.header-right{
+    width: 30%;
+	margin: 0; padding: 0;
+	float: right;
+}
+
+.header-center{
+   text-align: justify;
+   color: whitesmoke;
+  
+}
+.txtcentro{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 10px;
+    
+}
+
+@media  screen and (max-width: 500px){
+.header a{
+    
+    float: nome;
+    display: block;
+    text-align: left;
+}
+.header-right{
+    float: none;
+}
+} 
